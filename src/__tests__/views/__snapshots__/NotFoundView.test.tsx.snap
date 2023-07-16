@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFoundView matches snapshot 1`] = `
+<div
+  className="mantine-AppShell-root mantine-osix87"
+>
+  <header
+    className="mantine-Header-root mantine-10stgci"
+  >
+    <div
+      className="mantine-1avyp1d"
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "height": "95%",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <div
+        className="mantine-1avyp1d"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          style={
+            Object {
+              "textDecoration": "none",
+            }
+          }
+        >
+          <div
+            className="mantine-Text-root mantine-sxjqga"
+          >
+            Rick and Morty API
+          </div>
+        </a>
+      </div>
+      <div
+        dir="ltr"
+      >
+        <div
+          className="mantine-MediaQuery-media mantine-1oo9yf0"
+        />
+      </div>
+      <div
+        className="mantine-MediaQuery-media mantine-ptflan"
+      >
+        <div
+          className="mantine-1avyp1d"
+        >
+          <div
+            className="mantine-Group-root mantine-puhv18"
+          >
+            <button
+              className="mantine-UnstyledButton-root mantine-ActionIcon-root mantine-1659fq7"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="icon icon-tabler icon-tabler-sun"
+                fill="none"
+                height={16}
+                stroke="white"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                viewBox="0 0 24 24"
+                width={16}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                  stroke="none"
+                />
+                <circle
+                  cx={12}
+                  cy={12}
+                  r={4}
+                />
+                <path
+                  d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"
+                />
+              </svg>
+            </button>
+            <a
+              href="/leaderboard"
+              onClick={[Function]}
+              style={
+                Object {
+                  "textDecoration": "none",
+                }
+              }
+            >
+              <button
+                className="mantine-UnstyledButton-root mantine-Button-root mantine-1yzv7ux"
+                data-button={true}
+                type="button"
+              >
+                <div
+                  className="mantine-3xbgk5 mantine-Button-inner"
+                >
+                  <span
+                    className="mantine-Button-icon mantine-Button-leftIcon mantine-1g4orza"
+                  >
+                    <svg
+                      className="icon icon-tabler icon-tabler-clipboard-text"
+                      fill="none"
+                      height={14}
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      viewBox="0 0 24 24"
+                      width={14}
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                        stroke="none"
+                      />
+                      <path
+                        d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"
+                      />
+                      <rect
+                        height={4}
+                        rx={2}
+                        width={6}
+                        x={9}
+                        y={3}
+                      />
+                      <path
+                        d="M9 12h6"
+                      />
+                      <path
+                        d="M9 16h6"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    className="mantine-qo1k2 mantine-Button-label"
+                    style={
+                      Object {
+                        "textTransform": undefined,
+                      }
+                    }
+                  >
+                    Leaderboard
+                  </span>
+                </div>
+              </button>
+            </a>
+            <button
+              className="mantine-UnstyledButton-root mantine-Button-root mantine-4xmesm"
+              data-button={true}
+              onClick={[Function]}
+              type="button"
+            >
+              <div
+                className="mantine-3xbgk5 mantine-Button-inner"
+              >
+                <span
+                  className="mantine-Button-icon mantine-Button-leftIcon mantine-1g4orza"
+                >
+                  <svg
+                    className="icon icon-tabler icon-tabler-login"
+                    fill="none"
+                    height={16}
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    viewBox="0 0 24 24"
+                    width={16}
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                      stroke="none"
+                    />
+                    <path
+                      d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2"
+                    />
+                    <path
+                      d="M20 12h-13l3 -3m0 6l-3 -3"
+                    />
+                  </svg>
+                </span>
+                <span
+                  className="mantine-qo1k2 mantine-Button-label"
+                  style={
+                    Object {
+                      "textTransform": undefined,
+                    }
+                  }
+                >
+                  Sign in
+                </span>
+              </div>
+            </button>
+            <button
+              className="mantine-UnstyledButton-root mantine-Button-root mantine-22dotu"
+              data-button={true}
+              onClick={[Function]}
+              type="button"
+            >
+              <div
+                className="mantine-3xbgk5 mantine-Button-inner"
+              >
+                <span
+                  className="mantine-Button-icon mantine-Button-leftIcon mantine-1g4orza"
+                >
+                  <svg
+                    className="icon icon-tabler icon-tabler-user-plus"
+                    fill="none"
+                    height={16}
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    viewBox="0 0 24 24"
+                    width={16}
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                      stroke="none"
+                    />
+                    <circle
+                      cx={9}
+                      cy={7}
+                      r={4}
+                    />
+                    <path
+                      d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"
+                    />
+                    <path
+                      d="M16 11h6m-3 -3v6"
+                    />
+                  </svg>
+                </span>
+                <span
+                  className="mantine-qo1k2 mantine-Button-label"
+                  style={
+                    Object {
+                      "textTransform": undefined,
+                    }
+                  }
+                >
+                  Sign up
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <button
+        aria-controls="mantine-r0-dropdown"
+        aria-expanded={false}
+        aria-haspopup="menu"
+        className="mantine-UnstyledButton-root mantine-Burger-root mantine-MediaQuery-media mantine-7ueeb2"
+        id="mantine-r0-target"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        type="button"
+      >
+        <div
+          className="mantine-1hfrgwx mantine-Burger-burger"
+        />
+      </button>
+    </div>
+  </header>
+  <div
+    className="mantine-ibbm6b mantine-AppShell-body"
+  >
+    <main
+      className="mantine-1kfyi4k mantine-AppShell-main"
+    >
+      <div
+        className="mantine-8od8ev"
+        style={
+          Object {
+            "height": "100vh",
+          }
+        }
+      >
+        <div
+          className="mantine-Text-root mantine-1k3aqg4"
+          data-cy="heading"
+          data-testid="heading"
+        >
+          404 - Page Not Found
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+`;
