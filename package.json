@@ -1,9 +1,11 @@
 {
   "name": "frontend",
-  "homepage": "/",
+  "homepage": " https://zahirhasheminasab.github.io/rickAndMarty/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-app-rewired start",
     "dev": "npm run start",
     "build": "react-app-rewired build",
@@ -30,6 +32,7 @@
     "@mantine/modals": "^5.5.4",
     "@mantine/notifications": "^5.5.5",
     "@tabler/icons": "^1.102.0",
+    "gh-pages": "^5.0.0",
     "graphql": "^16.6.0",
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.29.4",
